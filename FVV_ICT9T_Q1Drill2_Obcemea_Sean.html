@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+    section{
+        display: block;
+        margin: auto;
+        width: 600px;
+        height: auto;
+        background-color: aquamarine;
+        box-shadow: 0px 3px 10px green
+        padding: 15px; 
+    }
+    Header{
+        text-align: center;
+    }
+
+    img{
+        height:100px;
+        width:100px; 
+        display: block;
+        margin: auto;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <h1> Rate a Movie</h1>
+        <img src="https://static.wikia.nocookie.net/godzillap/images/e/ea/51HEXHBZ4VL.jpg/revision/latest?cb=20131211122336" alt="movie logo">
+        <p>Rate 5 Godzilla movies!</p>
+    </header>
+<br>
+
+<section>
+    <form action=""> 
+        <label for="movie"> select a movie </label>
+    <select id="movie" name="movie">
+        <option value="movie1" > Godzilla 1954</option>
+        <option value="movie2" > Godzilla 1956</option>
+        <option value="movie3" > Godzilla G.M.K.</option>
+        <option value="movie4" > Godzilla vs Orga</option>
+        <option value="movie5" > Gdozilla vs Kong</option>
+    </select>
+</br> 
+
+
+<label for="Genre">Genre/s</label>
+<br>
+<input type="checkbox" id="Genre1" name="genre1" value="genre1">
+            <label for="Genre1">Drama</label>
+              <input type="checkbox" id="Genre2" name="genre2" value="genre2">
+            <label for="Genre2">Action</label>
+              <input type="checkbox" id="Genre3" name="genre3" value="genre3">
+            <label for="Genre3">Fantasy</label>
+              <input type="checkbox" id="Genre4" name="genre4" value="genre4">
+            <label for="Genre4">Scifi</label>
+              <input type="checkbox" id="Genre5" name="genre5" value="genre5">
+            <label for="Genre5">Adventure</label>
+
+            <br><br>
+            <label for="rating">Rating</label>
+            <br>
+            <input type="radio" id="rate1" name="rating" value="rate1">
+            <label for="rate1">⭐️</label>
+            <input type="radio" id="rate2" name="rating" value="rate2">
+            <label for="rate1">⭐️⭐️</label><input type="radio" id="rate2" name="rating" value="rate2">
+            <label for="rate1">⭐️⭐️⭐️</label><input type="radio" id="rate3" name="rating" value="rate3">
+            <label for="rate1">⭐️⭐️⭐️⭐️</label><input type="radio" id="rate4" name="rating" value="rate4">
+          <input type="radio" id="rate5" name="rating" value="rate5">
+            <label for="rate1">⭐️⭐️⭐️⭐️⭐️</label>
+            <br><br>
+
+            <textarea id="review" name="review" cols="40" rows="4" placeholder="write your review here..."></textarea>
+            
+            <br><br>
+
+            <input type="submit" id="submit" name="submit" value="Submit a Review">
+            
+            </form>
+
+            <br>
+            For more review tips, click <a href="https://www.fantasy-animation.org/current-posts/how-to-write-a-movie-review-a-step-by-step-guide" targets="_blank">here.</a>
+    </section>
+
+</body>
+</html>
